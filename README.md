@@ -46,3 +46,5 @@ Information
 - git diff <branchName>..<branchName> : shows the difference between two branches
 
 ## Information about the third lesson (merging)
+- git merge <branchName> : brings the changes from the specified branch, to the current branch
+	Fast forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then 
