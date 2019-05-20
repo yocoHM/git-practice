@@ -18,3 +18,6 @@ Commands used
 
 Information
 .git directory : is where Git stores all the information about the repository
+
+## Information about the second lesson
+- git branch <branchName> : creates a new branch
