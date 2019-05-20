@@ -23,3 +23,6 @@ Information
 - git branch <branchName> : creates a new branch
 - git branch : lists branches created and marks the one that you are currently working on
 - git checkout -b <branchName> : creates a new branch and switches to it
+- git stash : stashes the changes made on a queue to work on them later. Useful to save changes that are not quite ready to 	commit them
+- git stash list : shows the queue of previous saved work
+- git stash pop : takes out the last saved work 
