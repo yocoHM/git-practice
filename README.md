@@ -4,7 +4,7 @@
 
 Commands used
 - git init : initializes a git repository
-- git status : compares the working directory, the current branch, and the staging area.
+- git status : compares the working directory, the current branch, and the staging area
 	- Red files mean that they are being untracked 
 	- Green files mean they are being tracked and are added to a “staging area”
 - git add <file> : adds files to tracking 
