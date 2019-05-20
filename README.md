@@ -21,3 +21,4 @@ Information
 
 ## Information about the second lesson
 - git branch <branchName> : creates a new branch
+- git branch : check in which branch you are currently working
