@@ -22,3 +22,7 @@ Information
 ## Information about the second lesson
 - git branch <branchName> : creates a new branch
 - git branch : lists branches created and marks the one that you are currently working on
+- git checkout <branchName> : switch to another branch
+
+Information
+- git branch --set-upstream-to=origin/<branch> : set tracking information from a specific branch. e.g. master
