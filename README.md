@@ -22,3 +22,4 @@ Information
 ## Information about the second lesson
 - git branch <branchName> : creates a new branch
 - git branch : lists branches created and marks the one that you are currently working on
+- git checkout -b <branchName> : creates a new branch and switches to it
