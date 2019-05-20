@@ -44,3 +44,5 @@ Information
 - git diff --cached <branchName> : shows the difference between staging area and the specified branch
 - git diff <commitID>..<commitID> : shows the difference between two commits
 - git diff <branchName>..<branchName> : shows the difference between two branches
+
+## Information about the third lesson (merging)
