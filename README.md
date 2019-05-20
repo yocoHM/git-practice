@@ -48,4 +48,5 @@ Information
 ## Information about the third lesson (merging)
 - git merge <branchName> : brings the changes from the specified branch, to the current branch
 	Fast forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then 
+	An automatic merge happens when the two histories have diverged, but Git is able to reconcile them into one set of changes. It creates a new commit on the current branch
 - git branch -d <branchName> : deletes the specified branch
