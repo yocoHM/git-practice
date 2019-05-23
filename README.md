@@ -18,10 +18,12 @@ Commands used
 
 Information
 .git directory : is where Git stores all the information about the repository
+- git branch --set-upstream-to=origin/<branch> : set tracking information from a specific branch. e.g. master
 
 ## Information about the second lesson
 - git branch <branchName> : creates a new branch
 - git branch : lists branches created and marks the one that you are currently working on
+- git checkout <branchName> : switch to another branch
 
 ## Information about the third lesson
 - git log <branchName> : shows the commit history from the specified branch
@@ -45,7 +47,7 @@ Information
 - git diff <commitID>..<commitID> : shows the difference between two commits
 - git diff <branchName>..<branchName> : shows the difference between two branches
 
-## Information about the third lesson (merging)
+## Information about the fourth lesson (merging)
 - git merge <branchName> : brings the changes from the specified branch, to the current branch
 	Fast forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then 
 	An automatic merge happens when the two histories have diverged, but Git is able to reconcile them into one set of changes. It creates a new commit on the current branch
