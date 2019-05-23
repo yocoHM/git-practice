@@ -1,8 +1,6 @@
 # Practice repository for Git demonstration
 
 ## Information about the first lesson (commit and add)
-
-Commands used
 - git init : initializes a git repository
 - git status : compares the working directory, the current branch, and the staging area
 	- Red files mean that they are being untracked 
@@ -16,8 +14,8 @@ Commands used
 - git log : gives information about the repository's history
 	The most recent commit is at the top
 
-Information
-.git directory : is where Git stores all the information about the repository
+Additional information
+- .git directory : is where Git stores all the information about the repository
 - git branch --set-upstream-to=origin/<branch> : set tracking information from a specific branch. e.g. master
 
 ## Information about the second lesson
@@ -60,4 +58,6 @@ Information
 
 ## Information about the fifth lesson (resolving conflicts when merging)
 - git merge --abort : rolls back to the version of the branch without the merge
-- git merge --no-commit --no-ff <branchName> : merge without making a commit and without making a fast forward merge. Also, if there's a conflict, it can be aborted
+- git merge --no-commit --no-ff <branchName> : merges without making a commit and without making a fast forward merge. Also, if there's a conflict, it can be aborted
+- git branch --no-merged master : checks which branches have not been merged with master
+- git branch --merged master : checks which branches have been merged with master
