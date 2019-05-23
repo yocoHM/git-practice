@@ -23,6 +23,7 @@ Information
 ## Information about the second lesson
 - git branch <branchName> : creates a new branch
 - git branch : lists branches created and marks the one that you are currently working on
+- git branch -v : shows the latest commit for each branch created
 - git checkout <branchName> : switch to another branch
 - git checkout -b <branchName> : creates a new branch and switches to it
 - git stash : stashes the changes made on a queue to work on them later. Useful to save changes that are not quite ready to 	commit them
@@ -59,3 +60,4 @@ Information
 
 ## Information about the fifth lesson (resolving conflicts when merging)
 - git merge --abort : rolls back to the version of the branch without the merge
+- git merge --no-commit --no-ff <branchName> : merge without making a commit and without making a fast forward merge. Also, if there's a conflict, it can be aborted
