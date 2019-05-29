@@ -61,3 +61,5 @@ Additional information
 - git merge --no-commit --no-ff <branchName> : merges without making a commit and without making a fast forward merge. Also, if there's a conflict, it can be aborted
 - git branch --no-merged master : checks which branches have not been merged with master
 - git branch --merged master : checks which branches have been merged with master
+
+Change made on branch "yocoyah"
