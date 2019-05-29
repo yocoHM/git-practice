@@ -62,5 +62,5 @@ Additional information
 - git branch --no-merged master : checks which branches have not been merged with master
 - git branch --merged master : checks which branches have been merged with master
 
-Change made on branch "yocoyah"
 Changed made on branch "jfgue"
+Another line changed on branch "yocoyah"
