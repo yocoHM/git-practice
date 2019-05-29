@@ -63,3 +63,4 @@ Additional information
 - git branch --merged master : checks which branches have been merged with master
 
 Change made on branch "yocoyah"
+Changed made on branch "jfgue"
